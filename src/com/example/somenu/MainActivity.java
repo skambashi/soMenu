@@ -16,12 +16,12 @@ public class MainActivity extends Activity {
 	public final static String EXTRA_MESSAGE = "com.practice.myfirstapp.MESSAGE";
 	// The data to show
 	List<Map<String, String>> optionsList = new ArrayList<Map<String, String>>();
-	
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
+
 	}
 
 	@Override
@@ -30,8 +30,8 @@ public class MainActivity extends Activity {
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
-	
-	public void showAbout(View view){
+
+	public void showAbout(View view) {
 		Intent intent = new Intent(this, About.class);
 		startActivity(intent);
 	}

@@ -10,23 +10,23 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-
-public class About extends Activity{
+public class About extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		
+
 		Intent intent = getIntent();
 
-/*		TextView textView = new TextView(this);
-		textView.setTextSize(40);
-		
-		textView.setText(R.string.about_text);
-		
-		setContentView(textView);*/
-		// Show the Up button in the action bar.
+		/*
+		 * TextView textView = new TextView(this); textView.setTextSize(40);
+		 * 
+		 * textView.setText(R.string.about_text);
+		 * 
+		 * setContentView(textView);
+		 */
 		setContentView(R.layout.activity_display_about);
+		// Show the Up button in the action bar.
 		setupActionBar();
 	}
 
