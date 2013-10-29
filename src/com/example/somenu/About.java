@@ -18,13 +18,6 @@ public class About extends Activity {
 
 		Intent intent = getIntent();
 
-		/*
-		 * TextView textView = new TextView(this); textView.setTextSize(40);
-		 * 
-		 * textView.setText(R.string.about_text);
-		 * 
-		 * setContentView(textView);
-		 */
 		setContentView(R.layout.activity_display_about);
 		// Show the Up button in the action bar.
 		setupActionBar();

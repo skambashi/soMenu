@@ -14,8 +14,6 @@ import android.widget.EditText;
 public class MainActivity extends Activity {
 
 	public final static String EXTRA_MESSAGE = "com.practice.myfirstapp.MESSAGE";
-	// The data to show
-	List<Map<String, String>> optionsList = new ArrayList<Map<String, String>>();
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
